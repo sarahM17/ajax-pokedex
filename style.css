@@ -1,0 +1,172 @@
+body {
+    background-image: url("background.png");
+}
+
+#image1  {
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+}
+
+.image2 {
+    width: 10%;
+    height: 30%;
+}
+
+#image3 {
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 30%;
+}
+
+#blok {
+    background-color: orange;
+    position: absolute;
+    width: 270px;
+    height: 280px;
+    margin-left: 27%;
+    margin-top: 10%; 
+    border-radius: 12px;
+    border: 2px solid black;
+    z-index: 800;
+}
+#blok1 {
+    background-color: green;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 270px;
+    height: 170px;
+    margin-left: 46.5%;
+    margin-top: 10%;
+    border-radius: 12px;
+    border: 2px solid black;
+    z-index: 800;
+}
+
+#headview {
+    width: 600px;
+    height: 350px;
+    background-color: darkred;
+    position: absolute;
+    margin-right: 30%;
+    margin-left: 26%;
+    margin-top: 6%;
+    border: 3px solid black;
+    border-radius: 16px;
+}
+
+#button {
+    position: absolute;
+    margin-block-start: 10%;
+    margin-left: 35%;
+    z-index: 999;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+
+#search {
+    position: absolute;
+    margin-block-start: 10%;
+    margin-left: 28%;
+    z-index: 999;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    width: 100px;
+    text-align: center;
+}
+
+#bol {
+    position: absolute;
+    display:flex;
+    flex-flow: row;
+    margin-left: 54%;
+    margin-top: 7%;
+    z-index: 999;
+}
+
+#blauw {
+    background-color: blue;
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+#rood {
+    background-color: orange;
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+#groen {
+    background-color: green;
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+#knop {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-left: 47%;
+    margin-top: 25%;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+#knopje {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-left: 47%;
+    margin-top: 22%;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+#knop1 {
+    width: 60px;
+    height: 40px;
+    background-color: blue;
+    z-index: 999;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+.user {
+    margin: 15px 15px;
+}
+.user1 {
+    margin: 10px 10px;
+    font-size: 30px;
+    font-style: oblique;
+}
+.user3 {
+    margin-left: 10px;
+}
+
+.user4 {
+    margin: 10px 10px;
+}
+
+.user5 {
+    margin: 10px 10px;
+}
